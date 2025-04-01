@@ -1,6 +1,41 @@
-header {
+main {
 
-    background-color: aqua;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content:  center;
     
 }
+
+.banner-container {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    height: 100vh;
+}
+
+.banner {
+
+    flex: 1;
+}
+    
+.banner img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.texte {
+    flex: 1; 
+    padding: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: white; 
+    text-align: left; 
+  }
+
+  .texte h1 {
+    font-size: 2rem; 
+    color: black; 
+  }

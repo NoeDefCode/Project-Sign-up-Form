@@ -66,13 +66,19 @@ body, html {
 .content {
     flex-basis: 60%; 
     display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    background-color: white; 
+    flex-direction: column;
+    background-color: whitesmoke; 
     text-align: left; 
   }
 
-  .content h1 {
-    font-size: 2rem; 
-    color: black; 
+  .content > div {
+    display: flex;
+    align-items: flex-start;
+    margin-left:  3%;
+    margin-right: 20%;
+    margin-top: 15%;
+    font-size: 1.5rem; 
+    color: black;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
   }

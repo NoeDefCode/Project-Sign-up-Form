@@ -46,6 +46,8 @@ html {
   align-items: center;
   color: azure;
   font-size: 2.5rem;
+  font-family: "Boldonse", system-ui;
+  text-transform: uppercase;
 }
 
 .mention {
@@ -64,15 +66,15 @@ html {
   box-sizing: border-box;
   background-color: whitesmoke;
   gap: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .top-content {
-  margin-top: 12%;
+  margin-top: 10%;
   margin-left: 5%;
   max-width: 800px;
+  font-weight: 600;
   font-size: 1.5rem;
-  color: black;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .main-content {
@@ -93,6 +95,8 @@ html {
   margin-left: 5%;
   padding: 20px;
   border-radius: 8px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 #title {
@@ -155,3 +159,10 @@ button:hover {
   font-weight: bold;
   word-spacing: 3px;
 }
+
+.login-link {
+  color: rgb(177, 27, 27);
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Markazi+Text:wght@400..700&family=Oswald:wght@200..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
